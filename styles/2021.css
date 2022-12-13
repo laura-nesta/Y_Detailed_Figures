@@ -1,0 +1,30 @@
+p1{
+    color: #E09108;
+}
+
+/* style du menu */
+a.nav-link[data-theme="dark"]{
+    color: #885C0F;
+}
+
+a.nav-link[data-theme="dark"]:hover{
+    color: white;
+}
+
+a.nav-link.active[data-theme="dark"]{
+    color : white;
+    background-color: #E09108;
+}
+
+a.nav-link[data-theme="light"]{
+    color: #B6770B;
+}
+
+a.nav-link:hover[data-theme="light"]{
+    color: black;
+}
+
+.nav-link.active[data-theme="light"]{
+    color : white;
+    background-color: #E09108;
+}

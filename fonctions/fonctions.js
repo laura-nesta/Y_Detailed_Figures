@@ -9,9 +9,9 @@ document.querySelectorAll('#light-icon').forEach(item => {
   });
 
   function darkMode() {
-    let body = document.querySelector('[data-theme]');
+    let themeSwitchableElement = document.querySelectorAll('[data-theme]');
     let mode = this.dataset.mode;
-    body.dataset.theme = mode;
+    themeSwitchableElement.forEach(el => el.dataset.theme = mode)
   }
 
   function switchThemeDark() {
