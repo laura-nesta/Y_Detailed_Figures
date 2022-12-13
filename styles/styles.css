@@ -1,16 +1,4 @@
-body{
-
-}
-
-header{
-    background-color: #E09108;
-    height: 65px;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    box-shadow: 10px 5px 5px rgb(255, 255, 255);
-}
-
+/* style du footer -- identique sur toutes les pages */
 footer{
     background-color: #716A5D;
     height: 65px;
@@ -22,14 +10,33 @@ footer{
     width: 100%;
 }
 
-.main-container{
+/* style global de la page */
+div.global-container[data-theme="dark"]{
     background-color: #2C2C2C;
-    height: 100%;
 }
+
+div.global-container[data-theme="light"] {
+    background-color: #ffffff;
+}
+
+.main-container{
+    background-color: #05030010;
+    min-height: 800px;
+    width: 80%;
+    margin: auto
+}
+
+/* Style du header */
+header{
+    height: 65px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
 
 a.navbar-brand{
     margin-left: 15px;
-    color: white;
     font-size: 1.5em;
     float: left;
     width: 20%;
@@ -43,11 +50,32 @@ a.navbar-brand{
 a.nav-link{
     margin-top: 10px;
     font-size: 18px;
-    color: #885C0F;
 }
 
 a.nav-link:hover{
     margin-top: 10px;
     font-size: 18px;
-    color: #000000;
 }
+
+.theme-switcher{
+    float : right;
+    margin-top : 75px;
+    margin-right: 20px;
+    width: auto;
+    display: flex;
+}
+
+.switch-theme-icon{
+    margin:5px;
+    color:#1616168e;
+    width:20px;
+    height: 20px;
+}
+
+.switch-theme-icon.active{
+    margin:5px;
+    color:#B6770B70;
+    width:20px;
+    height: 20px;
+}
+
