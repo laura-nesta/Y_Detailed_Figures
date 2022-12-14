@@ -1,5 +1,11 @@
+@font-face {
+	font-family: 'Foundation';
+	src: url('../assets/fonts/FoundationTitlesHand-v0.85.ttf')
+}
+
 /* style du header de la page d'accueil */
 header{
+    z-index: 100;
     background-color: #E09108;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.336);
 }
@@ -20,5 +26,38 @@ a.nav-link:hover{
 
 .nav-link.active{
     color : white;
+}
+
+img.carousel{
+    display: block;
+  max-width:100%;
+  max-height:450px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+h1{
+    color: #E09108;
+    font-family: 'Foundation', sans-serif;
+}
+
+div.sub-faction-container{
+    margin-top: 60px;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+a.lien-details{
+    color: #885C0F;
+    margin-bottom: 60px;
+}
+
+img.lien-projet-picture{
+    margin: auto;
+    max-height: 200px;
 }
 

@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Foundation';
+	src: url('../assets/fonts/FoundationTitlesHand-v0.85.ttf') format(‘truetype’)
+}
+
 /* style du footer -- identique sur toutes les pages */
 footer{
     background-color: #716A5D;
@@ -5,12 +10,16 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    bottom: 0px;
-    position: absolute;
+    bottom: 0;
+    position: static;
     width: 100%;
 }
 
 /* style global de la page */
+.header-hidden{
+    min-height: 60px;
+}
+
 div.global-container[data-theme="dark"]{
     background-color: #2C2C2C;
 }
@@ -23,7 +32,8 @@ div.global-container[data-theme="light"] {
     background-color: #05030010;
     min-height: 800px;
     width: 80%;
-    margin: auto
+    margin: auto;
+    padding-bottom: 40px;
 }
 
 /* Style du header */

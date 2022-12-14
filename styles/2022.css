@@ -28,3 +28,7 @@ a.nav-link:hover[data-theme="light"]{
     color : white;
     background-color: #893DC2;
 }
+
+.switch-theme-icon.active{
+    color:#893DC270;
+}
