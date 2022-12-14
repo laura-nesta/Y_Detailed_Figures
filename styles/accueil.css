@@ -17,7 +17,7 @@ a.navbar-brand{
 
 /* style du menu */
 a.nav-link{
-    color: #885C0F;
+    color: #734e0d;
 }
 
 a.nav-link:hover{
@@ -55,9 +55,61 @@ a.lien-details{
     color: #885C0F;
     margin-bottom: 60px;
 }
+a.lien-details:hover{
+    color: #E09108;
+}
+
+a.lien-details.annee{
+    margin-top: 20px;
+    text-decoration : none;
+    color: white;
+    text-align: center;
+}
+
+a.image-annee{
+    display:grid; 
+    text-decoration : none;
+}
+
+a.image-annee>*{
+    grid-area: 1/1/-1/-1; 
+}
 
 img.lien-projet-picture{
     margin: auto;
-    max-height: 200px;
+    max-height: 180px;
+    border-radius: 50%;
+    background-color: #00000020;
 }
+
+
+
+span.image-text{
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF00;
+    margin: auto;
+}
+
+.text-hover-lien{
+    margin:auto;
+}
+
+.image-annee:hover .image-text{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.9;
+    color:#FFFFFF;
+    margin: auto;
+}
+
+span{
+    margin-top: 20%;
+}
+
+
 

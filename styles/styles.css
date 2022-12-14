@@ -82,6 +82,10 @@ a.nav-link:hover{
     height: 20px;
 }
 
+#light-icon[data-theme="dark"]{
+    color:#ffffff50;
+}
+
 .switch-theme-icon.active{
     margin:5px;
     color:#B6770B70;
