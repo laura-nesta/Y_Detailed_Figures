@@ -6,6 +6,7 @@
 //     "brief"                 : 'L\'homme poisson', // brève description
 //     "description"           : '', //description compléte
 //     "artiste"               : 'Mazarine', //artiste
+//     "imageCardUrl"                  : '', //photo presentation image card
 //     "charaUrl"              : '', // lien image chara design
 //     "inspiUrl"              : '', // lien image planche d'inspiration
 //     "visualisationUrl"      : [''], //tableau de lien de rendu 3d
@@ -14,14 +15,15 @@
 //     "fichierModel3dUrl"     : '' //lien vers le fichier du modèle 3D
 // }
 
-export const projet = [
+const Projet = [
   {
     id: 1,
     nom: "Maraiche",
     année: "2021",
-    brief: "L'homme poisson",
+    brief: "L'homme ",
     description: "",
     artiste: "Mazarine",
+    imageCardUrl: "assetsimagesphotoProjetsMaraichemaraiche_post.jpg",
     charaUrl: "assetsimagesphotoProjetsMaraichemaraiche_charadesign.jpg",
     inspiUrl: "assetsimagesphotoProjetsMaraichemaraiche_inspiration.jpg",
     visualisationUrl: [
@@ -41,6 +43,7 @@ export const projet = [
     brief: "L'alien homanoïde",
     description: "",
     artiste: "Ryan",
+    imageCardUrl: "assetsimagesphotoProjetsAllarienallarien_post.jpg",
     charaUrl: "",
     inspiUrl: "assetsimagesphotoProjetsAllarienallarien_inspiration.jpg",
     visualisationUrl: [
@@ -63,6 +66,7 @@ export const projet = [
     brief: "",
     description: "",
     artiste: "Mazarine",
+    imageCardUrl: "",
     charaUrl: [
       "assetsimagesphotoProjetsLactouretcollycolly_charadesign.jpg",
       "assetsimagesphotoProjetsLactouretcollylactour_charadesign.jpg",
@@ -85,6 +89,7 @@ export const projet = [
     brief: "Le singe humanisé",
     description: "",
     artiste: "Nicolas",
+    imageCardUrl: "assetsimagesphotoProjetsMonkemonke_post.jpg",
     charaUrl: [
       "assetsimagesphotoProjetsMonkemonke_charadesign_1.jpg",
       "assetsimagesphotoProjetsMonkemonke_charadesign_2.jpg",
@@ -102,6 +107,7 @@ export const projet = [
     brief: "Le duo humoristique d’un dodo et d’un cavalier canard",
     description: "",
     artiste: "Mathias",
+    imageCardUrl: "assetsimagesphotoProjetsOinc_post.jpg",
     charaUrl: "",
     inspiUrl: "assetsimagesphotoProjetsOincoinc_charadesign.jpg",
     visualisationUrl: [
@@ -119,6 +125,7 @@ export const projet = [
     brief: "Le pilote de mecha",
     description: "Sentinelle Spacial Martienne",
     artiste: "Tristan",
+    imageCardUrl: "assetsimagesphotoProjetsSsmssm_post.jpg",
     charaUrl: "assetsimagesphotoProjetsSsmssm_charadesign.jpg",
     inspiUrl: "assetsimagesphotoProjetsSsmssm_inspiration.jpg",
     visualisationUrl: [
@@ -137,6 +144,7 @@ export const projet = [
     brief: "",
     description: "",
     artiste: "Fanny",
+    imageCardUrl: "",
     charaUrl: "",
     inspiUrl: [
       "assetsimagesphotoProjetsFoxia_foxia_visu_1.jpg",
