@@ -21,9 +21,10 @@ const Projet = [
     nom: "Maraiche",
     année: "2021",
     brief: "L'homme ",
-    description: "",
+    description: "L'homme poisson",
     artiste: "Mazarine",
-    imageCardUrl: "assetsimagesphotoProjetsMaraichemaraiche_post.jpg",
+    imageCardUrl:
+      "assets/images/photoProjets/Maraiche/maraiche_charadesign.jpg",
     charaUrl: "assetsimagesphotoProjetsMaraichemaraiche_charadesign.jpg",
     inspiUrl: "assetsimagesphotoProjetsMaraichemaraiche_inspiration.jpg",
     visualisationUrl: [
@@ -41,7 +42,7 @@ const Projet = [
     nom: "Allarien",
     année: "2021",
     brief: "L'alien homanoïde",
-    description: "",
+    description: "L'alien homanoïde",
     artiste: "Ryan",
     imageCardUrl: "assetsimagesphotoProjetsAllarienallarien_post.jpg",
     charaUrl: "",
