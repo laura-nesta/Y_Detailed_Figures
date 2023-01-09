@@ -24,10 +24,12 @@ footer{
 
 div.global-container[data-theme="dark"]{
     background-color: #2C2C2C;
+    color: white;
 }
 
 div.global-container[data-theme="light"] {
     background-color: #ffffff;
+    color: black;
 }
 
 .main-container{
