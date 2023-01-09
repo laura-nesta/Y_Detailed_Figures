@@ -47,10 +47,6 @@ div.sub-faction-container{
     text-align: center;
 }
 
-p{
-    color: white;
-}
-
 a.lien-details{
     color: #885C0F;
     margin-bottom: 60px;
@@ -81,9 +77,6 @@ img.lien-projet-picture{
     border-radius: 50%;
     background-color: #00000020;
 }
-
-
-
 span.image-text{
     justify-content: center;
     align-items: center;
